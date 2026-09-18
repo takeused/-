@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 로컬 전용 설정 / 수집 캐시
+.env
+.env.local
+.cache
+
+# 수집한 실제 데이터 (용량이 커서 저장소에 넣지 않음 — npm run data:api 로 생성)
+/public/data/
