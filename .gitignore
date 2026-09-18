@@ -29,3 +29,6 @@ dist-ssr
 .cache
 
 # 수집한 실제 데이터는 저장소에 포함한다 (Netlify 가 저장소에서 바로 빌드·배포하도록)
+
+# Local Netlify folder
+.netlify
